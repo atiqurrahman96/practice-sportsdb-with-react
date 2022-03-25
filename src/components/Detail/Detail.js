@@ -4,14 +4,18 @@ const Detail = (props) => {
     console.log(props.detail)
 
     const { detail } = props;
-    detail.map(detail => console.log(detail.idPlayer))
+    console.log(detail);
+
+
     return (
         <div className='detail-container'>
             <h1>
                 Details of The Player
             </h1>
             <p>Select item:{detail.length}</p>
-            <p></p>
+            {
+                detail.map(detail => <li>Barth:{detail.strBirthLocation} Position: {detail.strPosition}</li>)
+            }
 
         </div>
     );

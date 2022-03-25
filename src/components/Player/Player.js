@@ -6,13 +6,15 @@ const Player = (props) => {
     // console.log(props.playerDetail)
     const { strThumb, strDescriptionEN, strNationality } = props.player;
     const { playerDetail } = props;
+
     return (
         <div className='player-container'>
             <div className='player-img'>
-                <img src={strThumb} alt="" />
+                <img src={strThumb ? strThumb : "https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png"} alt="" />
             </div>
             <div className='name-des'>
-                <p>Name & description:{strDescriptionEN}</p>
+                <p>Name & description:{strDescriptionEN ? strDescriptionEN.slice(0, 100) : "no found"}</p>
+
                 <p>Nationality:{strNationality}</p>
             </div>
             <div className='button-style'>

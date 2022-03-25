@@ -23,7 +23,7 @@ const Players = () => {
                     players.map(player => <Player player={player} key={player.idPlayer} playerDetail={playerDetail}></Player>)
                 }
             </div>
-            <div className='Players-detail-container'>
+            <div className='players-detail-container'>
                 <Detail detail={detail}></Detail>
             </div>
         </div>
