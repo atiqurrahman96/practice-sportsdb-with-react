@@ -1,0 +1,29 @@
+.player-img img{
+    width: 150px;
+    border: 5px solid lavender;
+}
+
+.player-container{
+    border: 1px solid lightblue;
+    margin: 5px;
+}
+.name-des{
+    border: 2px solid lavender;
+}
+.button-style{
+    background-color: aqua;
+    padding: 5px;
+
+    
+}
+.button-style:hover{
+    background-color: orange;
+}
+
+.button-style button{
+    background-color: aqua;
+    border: 0;
+
+  
+   
+}

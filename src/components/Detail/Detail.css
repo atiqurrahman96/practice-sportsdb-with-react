@@ -1,0 +1,10 @@
+.detail-container{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    color: green;
+}
+.detail-container:hover{
+    background-color: orange;
+    color: black;
+}

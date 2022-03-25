@@ -1,0 +1,14 @@
+.main-players-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.players-container{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players-detail-container {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}

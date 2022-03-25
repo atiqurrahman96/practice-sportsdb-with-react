@@ -1,0 +1,28 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+.header-container:hover{
+    background-color: darkred;
+
+}
+.header-container h1:hover{
+    color: aqua;
+}
+.anchor-container a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    
+}
+.anchor-container a:hover{
+    color: aqua;
+    border: 1px solid lightslategray;
+    border-radius: 5px 2px;
+}
